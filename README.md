@@ -8,12 +8,15 @@ STEPS TO INSTALL
 * $(ARM_TOOLCHAIN) is the directory this file is in.
 
 * Go to the toolchain location
+
     $ cd $(NACL_SDK)/pepper_25/               
 
 * The pre-installed toolchain is for x86 hosts only
+
     $ mv toolchain toolchain.x64              
 
 * Decompress the arm toolchains 
+
     $ tar xzvf $(ARM_TOOLCHAIN)/toolchain.tgz 
 
 Done. You can now build NaCl projects normally on your arm host.
