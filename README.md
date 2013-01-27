@@ -4,16 +4,16 @@ Pre-built Native Client (NaCl) linux_arm_newlib and linux_x86_newlib gcc toolcha
 
 STEPS TO INSTALL
 ----------------
-# $(NACL_SDK) is wherever you installed nacl_sdk. See: https://developers.google.com/native-client/sdk/download
-# $(ARM_TOOLCHAIN) is the directory this file is in.
+$(NACL_SDK) is wherever you installed nacl_sdk. See: https://developers.google.com/native-client/sdk/download
+$(ARM_TOOLCHAIN) is the directory this file is in.
 
-# 1. Go to the toolchain location
+1. Go to the toolchain location
 $ cd $(NACL_SDK)/pepper_25/               
 
-# 2. The pre-installed toolchain is for x86 hosts only
+2. The pre-installed toolchain is for x86 hosts only
 $ mv toolchain toolchain.x64              
 
-# 3. Decompress the arm toolchains 
+3. Decompress the arm toolchains 
 $ tar xzvf $(ARM_TOOLCHAIN)/toolchain.tgz 
 
 Done. You can now build NaCl projects normally on your arm host.
