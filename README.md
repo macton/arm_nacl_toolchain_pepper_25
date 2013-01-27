@@ -4,8 +4,9 @@ Pre-built Native Client (NaCl) linux_arm_newlib and linux_x86_newlib gcc toolcha
 
 STEPS TO INSTALL
 ----------------
-$(NACL_SDK) is wherever you installed nacl_sdk. See: https://developers.google.com/native-client/sdk/download
-$(ARM_TOOLCHAIN) is the directory this file is in.
+NACL_SDK is wherever you installed nacl_sdk. See: https://developers.google.com/native-client/sdk/download
+
+ARM_TOOLCHAIN is the directory this file is in.
 
 Go to the toolchain location
 
