@@ -30,7 +30,7 @@ For notes on building toolchain from source on an ARM host, see thread: https://
 
 NOTES ON DEVELOPMENT ENVIRONMENT
 --------------------------------
-I am running a Samsung ARM Chromebook in developer mode with an ArchLinux userspace installed on an external sdcard.
+I am running ChromeOS on a Samsung ARM Chromebook in developer mode with an ArchLinux userspace (chroot) installed on an external sdcard.
 For notes on that process see: https://gist.github.com/4632677
 
 
